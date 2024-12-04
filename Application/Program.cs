@@ -1,6 +1,7 @@
 ﻿using Behavioral.Chain_of_Responsibility.Abstract_Class;
 using Behavioral.Chain_of_Responsibility.Concrete_Handlers;
 using creational.Factory_Method.Abstract_Class;
+using creational.Factory_Method.Abstract_Class.e.g._2;
 using creational.Factory_Method.Factory;
 
 
@@ -11,7 +12,12 @@ Console.WriteLine("\n====================== Creational ======================\n"
 Console.WriteLine("Factory Method\n");
 
 Car sedan = CarFactory.GetCar("Sedan");
-Console.WriteLine(sedan.GetType()); // Output: "Sedan"
+Console.WriteLine(sedan.GetType()+"\n"); // Output: "Sedan"
+
+
+string input = Console.ReadLine();
+ProcessPayment  processPayment = PaymentFactory.GetInstancePayment(input);
+processPayment.Payment(100_000.00m);
 
 Console.WriteLine("\n====================== Structural ======================\n");
 

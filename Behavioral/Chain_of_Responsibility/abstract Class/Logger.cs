@@ -1,4 +1,4 @@
-﻿namespace Behavioral.Chain_of_Responsibility;
+﻿namespace Behavioral.Chain_of_Responsibility.Abstract_Class;
 
 public abstract class Logger
 {

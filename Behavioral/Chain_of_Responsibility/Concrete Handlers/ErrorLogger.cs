@@ -1,4 +1,6 @@
-﻿namespace Behavioral.Chain_of_Responsibility;
+﻿using Behavioral.Chain_of_Responsibility.Abstract_Class;
+
+namespace Behavioral.Chain_of_Responsibility.Concrete_Handlers;
 
 // Concrete Handlers
 public class ErrorLogger : Logger

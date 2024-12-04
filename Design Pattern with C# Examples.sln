@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral", "Behavioral\Behavioral.csproj", "{04F2F2BB-08A9-48A0-B3D5-743EF5F42885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{22A240C1-DEC5-45EA-893A-9C9CA3ADEBDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04F2F2BB-08A9-48A0-B3D5-743EF5F42885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F2F2BB-08A9-48A0-B3D5-743EF5F42885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F2F2BB-08A9-48A0-B3D5-743EF5F42885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F2F2BB-08A9-48A0-B3D5-743EF5F42885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A240C1-DEC5-45EA-893A-9C9CA3ADEBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A240C1-DEC5-45EA-893A-9C9CA3ADEBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A240C1-DEC5-45EA-893A-9C9CA3ADEBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A240C1-DEC5-45EA-893A-9C9CA3ADEBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB0AE80D-278C-4BB2-999D-85338D7FFD7A}
+	EndGlobalSection
+EndGlobal
